@@ -6,8 +6,8 @@ class Admin extends React.Component{
     render(){
         return(
            <Row>
-               <Col span={3}>left</Col>
-               <Col span={21}>right</Col>
+               <Col span={6}>left</Col>
+               <Col span={18}>right</Col>
            </Row>
         )
     }
