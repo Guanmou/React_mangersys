@@ -9,8 +9,15 @@ class Admin extends React.Component{
     render(){
         return(
            <Row>
-               <Col span={3}>{{Menu}}</Col>
-               <Col span={21}>{{Header}}{{Footer}}</Col>
+               <Col style={{height:'500px',background:'#0083bc',color:'#fff'}} span={3}>{Menu}</Col>
+               <Col span={21}>
+               <Row style={{height:'500px',background:'#df83bc',color:'#fff'}}>
+                {Header}
+               </Row>
+               <Row style={{height:'500px',background:'#cb00dec',color:'#fff'}}>
+               {Footer}
+               </Row>
+               </Col>
            </Row>
         )
     }
