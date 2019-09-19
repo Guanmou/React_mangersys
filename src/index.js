@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'antd/dist/antd.css'//卧槽还要引下css
 // import './index.css';
 // import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Admin from './admin'
+import Admin from './admin'//导入默认index文件如果名字不是index要写上
 ReactDOM.render(<Admin />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
